@@ -1,0 +1,5 @@
+{
+  "name": "AI Dashboard",
+  "description": "A real-time sales analytics dashboard featuring interactive charts, key metrics visualization, and Gemini-powered AI insights for data analysis.",
+  "requestFramePermissions": []
+}
