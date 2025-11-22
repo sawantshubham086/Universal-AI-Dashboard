@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #000000;
+        color: #f8fafc;
+      }
+      
+      /* Print specific styles for PDF Export */
+      @media print {
+        @page {
+          size: landscape;
+          margin: 0.5cm;
+        }
+        body {
+          background-color: #ffffff;
+          color: #1e293b;
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+        .shadow-sm, .shadow-md, .shadow-lg {
+          box-shadow: none !important;
+          border: 1px solid #e2e8f0 !important;
+        }
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.4.1"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/Universal-AI-dashboard/assets/index-B_EQ99hx.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
